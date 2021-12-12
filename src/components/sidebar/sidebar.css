@@ -1,0 +1,44 @@
+.sidebar{
+    flex:1;    
+    height: calc(100vh - 80px); /* must have space between the arithmetic operator, else it will not work*/    
+    position: sticky;        
+}
+
+.top{
+    top:50px;
+}
+
+.sidebarWrapper{
+    /* padding:5px 20px 20px; */
+    color:#555;
+}
+
+.sidebarTitle{
+    font-size:16px;
+    color: rgb(157,156,156);
+}
+
+.sidebarList{
+    padding:5px;
+}
+
+.sidebarListItem{
+    color:#555;
+    display:flex;
+    cursor:pointer;
+    padding: 5px;
+    align-items:center;
+    border-radius:10px;
+    text-decoration: none;
+}
+
+.sidebarListItem:hover,
+.sidebarListItem.active {
+    color:#3886d7;
+    background-color: rgb(240,240,255);    
+}
+
+.sidebarIcon{
+    margin-right: 5px;
+    font-size: 20px !important;
+}

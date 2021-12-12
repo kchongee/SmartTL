@@ -1,0 +1,12 @@
+.chart{
+    /* flex:1; */
+    /* margin:20px; */
+    height: 100%;
+    padding:20px;
+    box-shadow: 0 0 15px -10px #000000;
+    -webkit-box-shadow: 0 0 15px -10px #000000;
+}
+
+.chartTitle{
+    margin: 20px;
+}

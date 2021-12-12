@@ -1,0 +1,58 @@
+.topbar{
+    width:100%;
+    height: 50px;
+    background-color: aliceblue;
+    position: sticky;
+    top:0;
+    z-index: 999; /* to make sure the topbar is infront of everything, while it is not neccessary*/
+}
+
+.topbarWrapper{
+    height:100%;
+    padding:0 20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topRight{
+    display: flex;   
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size:30px;
+    color:darkblue;
+    cursor:pointer;    
+    text-decoration: none;
+}
+
+.logoIcon{
+    margin-left: 5px;
+    font-size: 40px !important;
+}
+
+.topbarIconContainer{
+    position:relative;    
+}
+
+.topIconBadge{    
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color: #cb4326;
+    color:white;        
+}
+
+.dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+.clickable{
+    cursor: pointer;
+}
